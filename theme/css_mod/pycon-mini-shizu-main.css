@@ -1,0 +1,74 @@
+body{
+  font-family: 'Kosugi Maru', sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1.entry-title{
+  margin-bottom:40px;
+}
+
+header.other {
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  /* height:100px; */
+  background-color: #212529;
+  background-image: url("../img/header-bg-mini.jpg");
+
+}
+
+header.other .intro-text {
+  padding-top: 115px;
+  padding-bottom: 100px;
+}
+
+header.other .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+@media (min-width: 768px) {
+  header.other .intro-text {
+    padding-top: 70px;
+    padding-bottom: 200px;
+  }
+  header.other .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    
+  font-family: 'Kosugi Maru', sans-serif;
+  }
+}
+
+/* page content */
+
+.page-section .container h2 {
+  margin-bottom: 1.75rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+div.section {
+  padding-top: 60px;
+}
+
+section.access {
+  background: #f5f5f5;
+}
+
+section.access .map-container {
+  /* padding:20px */
+}
