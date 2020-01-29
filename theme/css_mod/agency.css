@@ -161,7 +161,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 1.2em;
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {

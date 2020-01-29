@@ -19,6 +19,11 @@ h1.entry-title{
   padding-bottom: 1em;
 }
 
+/* navbar */
+
+
+/* header */
+
 header.other {
   text-align: center;
   color: white;
@@ -143,4 +148,71 @@ p.session-tags > a.btn.btn-outline-info {
 
 a.session-icon-link {
   font-size: 1.2rem;
+}
+
+/* timetable page */
+
+.timetable {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.timetable > div {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.timetable > .time-col {
+  background-color: #EEE;
+}
+
+.timetable > .time-col > p {
+  margin-bottom:0rem;
+}
+
+.timetable .timetable-header {
+  background-color: #00833b;
+  color:white;
+  text-align: center;
+}
+
+.timetable .timetable-header > p {
+  margin-bottom:0rem;
+  font-weight: bold;
+}
+
+.timetable .time-col p{
+  text-align: center;
+}
+
+.timetable span.room-badge {
+  background-color: #57d18e;
+  color: #555;
+  padding: 6px;
+  font-size:1rem;
+}
+
+.timetable p.session-title{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.timetable .session-speaker{
+  font-size:0.9rem;
+  color:#444;
+}
+
+/* infocard: staff sponsor */
+
+.infocard {
+  margin-bottom: 15px;
+  padding: 16px;
+  border: 1px solid #69ffad;
+  background-color: white;
+}
+
+.infocard .sponsor-logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
 }
