@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 
 AUTHOR = 'pycon-mini-shizuoka main'
-SITENAME = 'PyCon mini Shizuoka'
+SITENAME = 'PyCon mini Shizuoka 公式ページ'
 SITEURL = ''
 
 PATH = 'content'
@@ -13,7 +13,7 @@ TIMEZONE = 'Asia/Tokyo'
 
 DEFAULT_LANG = 'ja'
 
-# THEME = "./pycon-mini-shizu-pelican-theme"
+THEME = "clean-blog"
 
 DISPLAY_PAGES_ON_MENU = True
 
