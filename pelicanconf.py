@@ -48,3 +48,13 @@ CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 # EXTRA_PATH_METADATA = {'extra/front_img': {'path': './front_img/'},
 # }
 
+SOCIAL = (('twitter', 'https://twitter.com/PyConShizu'),
+          ('github', 'https://github.com/pycon-mini-shizuoka/'),
+          ('connpass', 'https://pycon-shizu.connpass.com'),
+)   
+
+# theme config
+# HEADER_COVER = 'static/my_image.png'
+HEADER_COLOR = 'black'
+
+
