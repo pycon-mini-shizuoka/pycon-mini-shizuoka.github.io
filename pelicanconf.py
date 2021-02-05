@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 
-AUTHOR = 'pycon-mini-shizuoka main'
+AUTHOR = 'PyCon mini Shizuoka'
 SITENAME = 'PyCon mini Shizuoka 公式ページ'
 SITEURL = ''
 
@@ -13,7 +13,7 @@ TIMEZONE = 'Asia/Tokyo'
 
 DEFAULT_LANG = 'ja'
 
-THEME = "clean-blog"
+THEME = "pelican-clean-blog"
 
 DISPLAY_PAGES_ON_MENU = True
 
@@ -52,9 +52,13 @@ SOCIAL = (('twitter', 'https://twitter.com/PyConShizu'),
           ('github', 'https://github.com/pycon-mini-shizuoka/'),
           ('connpass', 'https://pycon-shizu.connpass.com'),
 )   
+SHOW_SOCIAL_ON_INDEX_PAGE_HEADER = True
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 
 # theme config
 # HEADER_COVER = 'static/my_image.png'
-HEADER_COLOR = 'black'
+# HEADER_COLOR = 'black'
 
 

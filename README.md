@@ -11,18 +11,27 @@
 
 pelicanをインストールします。
 
-`pipenv install`
+```
+pipenv install
+```
 
 pelican-themesのリポジトリをcloneします
 
-操作位置 => `/home/[username]/` を想定
+操作位置 => `/home/[username]/` を想定しています。
 
-`git clone --recursive https://github.com/getpelican/pelican-themes ~/pelican-themes`
+```
+git clone https://github.com/gilsondev/pelican-clean-blog.git
+```
 
 pelicanテーマをインストールします
 
-`pelican-themes -i ~/pelican-themes/`
+```
+pelican-themes -i ~/pelican-clean-blog/
+```
+
 
 サイトの生成を確認します。
 
-`pipenv run make devserver`
+```
+pipenv run make devserver
+```
