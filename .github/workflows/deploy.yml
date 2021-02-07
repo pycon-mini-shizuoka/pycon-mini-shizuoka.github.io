@@ -28,8 +28,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Add Themes
+        uses: actions/checkout@v2
+        with:
+          repository: gilsondev/pelican-clean-blog
+          path: "./pelican-clean-blog/"
       - name: Generate site
-        run:  
+        run: |
+          pelican-themes -i ./pelican-clean-blog
           make publish
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
