@@ -33,7 +33,6 @@ jobs:
         with:
           repository: gilsondev/pelican-clean-blog
           path: "./pelican-clean-blog/"
-          branch: master
       - name: check
         run: ls -la
       - name: Generate site
