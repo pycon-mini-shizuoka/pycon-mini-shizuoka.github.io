@@ -32,12 +32,14 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: gilsondev/pelican-clean-blog
+          path: "./pelican-clean-blog/"
+          branch: master
+      - name: check
+        run: ls -la
       - name: Generate site
         run: |
           pelican-themes -i ./pelican-clean-blog
           make publish
-      - name: check
-        run: ls -la
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
       #   with:
