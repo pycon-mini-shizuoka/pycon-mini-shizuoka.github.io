@@ -28,11 +28,18 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Generate site
-        run:  
-          make publish
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Add Themes
+        uses: actions/checkout@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
+          - repository: gilsondev/pelican-clean-blog
+      - name: Generate site
+        run: |
+          pelican-themes -i ./pelican-clean-blog
+          make publish
+      - name: check
+        run: ls -la
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./output
