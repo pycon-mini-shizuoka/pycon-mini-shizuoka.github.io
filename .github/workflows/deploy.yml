@@ -33,14 +33,10 @@ jobs:
         with:
           repository: gilsondev/pelican-clean-blog
           path: "./pelican-clean-blog/"
-      - name: check installed theme
-        run: ls -la
       - name: Generate site
         run: |
           pelican-themes -i ./pelican-clean-blog
           make publish
-      - name: check generate publish
-        run: ls -la ./output
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
