@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <title>unittest.mockを使ってテストを書こう 〜モックオブジェクトを使ってより単体テストの目的に沿ったテストに〜</title>
+
+            <link href="https://shizuoka.pycon.jp/new-hub-site-demo/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PyCon mini Shizuoka 公式ページ Full Atom Feed" />
+            <link href="https://shizuoka.pycon.jp/new-hub-site-demo/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="PyCon mini Shizuoka 公式ページ Categories Atom Feed" />
+        <!-- Bootstrap Core CSS -->
+        <link href="https://shizuoka.pycon.jp/new-hub-site-demo/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="https://shizuoka.pycon.jp/new-hub-site-demo/theme/css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+            <link href="https://shizuoka.pycon.jp/new-hub-site-demo/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+
+        <!-- Custom Fonts -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+        <meta name="description" content="">
+
+        <meta name="author" content="mizzsugar0425">
+
+
+	                <meta property="og:locale" content="">
+		<meta property="og:site_name" content="PyCon mini Shizuoka 公式ページ">
+
+	<meta property="og:type" content="article">
+            <meta property="article:author" content="https://shizuoka.pycon.jp/new-hub-site-demo/author/mizzsugar0425.html">
+	<meta property="og:url" content="https://shizuoka.pycon.jp/new-hub-site-demo/session/mizzsugar0425/">
+	<meta property="og:title" content="unittest.mockを使ってテストを書こう 〜モックオブジェクトを使ってより単体テストの目的に沿ったテストに〜">
+	<meta property="article:published_time" content="2020-01-04 20:00:00+09:00">
+            <meta property="og:description" content="">
+
+            <meta property="og:image" content="https://shizuoka.pycon.jp/new-hub-site-demo/images/header-bg-mini.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@PyConShizu">
+        <meta name="twitter:title" content="unittest.mockを使ってテストを書こう 〜モックオブジェクトを使ってより単体テストの目的に沿ったテストに〜">
+
+            <meta name="twitter:image" content="https://shizuoka.pycon.jp/new-hub-site-demo/images/header-bg-mini.jpg">
+
+            <meta name="twitter:description" content="">
+</head>
+
+<body class="article-unittestmockwoshi-tsutetesutowoshu-kou-motsukuobuziekutowoshi-tsuteyoridan-ti-tesutonomu-de-niyan-tsutatesutoni">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://shizuoka.pycon.jp/new-hub-site-demo/">PyCon mini Shizuoka 公式ページ</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-image: url('https://shizuoka.pycon.jp/new-hub-site-demo/images/header-bg-mini.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>unittest.mockを使ってテストを書こう 〜モックオブジェクトを使ってより単体テストの目的に沿ったテストに〜</h1>
+                        <span class="meta">Posted by
+                                <a href="https://shizuoka.pycon.jp/new-hub-site-demo/author/mizzsugar0425.html">mizzsugar0425</a>
+                             on Sat 04 January 2020
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- Post Content -->
+    <article>
+        <p><meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/mizzsugar0425/">
+<link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/mizzsugar0425/"></p>
+<!-- 
+こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます
+
+
+単体テストを書く上で、モックオブジェクトという手法があります。モックオブジェクトがどんな役割を果たすか、どのように使うかを知っていると、外部的な要因でテストが落ちなくなったり、テストしたいところだけテストできるようになって便利です。このトークでは、Pythonの標準モジュールunittest.mockを使ってモックオブジェクトを扱う方法について話します。
+
+
+### 対象となる人：
+* unittest.mockの存在は知っているけれどもイマイチ使いどころが分かっていない人
+* assertTrueやassertEqualなどの基本的なテストコードの文法は知っているけれど、何のためにテストを書くかをじっくり考えたことがない人
+
+※基本的なテストコードの文法や使い方を手短に説明します。単体テストを書いたことがなくてもこの話を聞けるように配慮します。
+
+
+### トークの目的：
+* 「なんとなくテスト書いた方がいい」から目的を持ったテストを書くように意識づける
+* 単体テストを書く目的を達成するためにモックを使うべき場面で使えるようになる
+* unittest.mockの使い方/ハマりポイントの対応策を知ってもらう
+
+
+### 話さないこと
+* テスト実行に便利なツールの紹介(coverageなど)
+* pytestの紹介及びunittestとの比較
+* E2Eテスト、結合テストの話
+
+
+### 話すこと
+
+#### 単体テストの目的(3-5分)
+* 単体テストの目的
+* 単体テストを書くメリット
+* 単体テストを書いて修正や機能追加をした例。(飲食店での購入合計金額を算出する関数を例に。既存の消費税が1.08に統一されていた頃の関数から軽減税率導入後の関数に変更する例を使います)
+    - assertEqualやassertTrueなどの基本的なアサーションメソッドの文法
+    - テストを実行するコマンド
+    - テストが落ちてからテストを通す道程
+    - テストを書くとどこまで関数の振る舞いを保証しているかわかるというメリット
+
+
+####  単体テストでモックオブジェクトを使う理由(5-8分)
+
+* モックオブジェクトの説明
+
+* 単体テストは下記の条件が揃っているべきである
+    - 速く実行される
+    - 常に同じ条件下で同じことがテストされる
+    - 外的要因を排除する
+    - 1つのテストメソッドで1つのことのみ確認でないとならない
+    - テスト対象の関数の振る舞いを担保する
+
+* 単体テストでモックオブジェクトを使うメリット
+
+####  Pythonのunittest.mockの基本的な使い方(5-8分)
+* 簡単なサンプルコードを使って説明(ランダムに運勢が出力されるおみくじを表現する関数を例に)
+    - unittest.mockを使わないテストコードで失敗する例
+    - unittest.mockの基本的な文法
+    - どのような考え方でこの例ではunittest.mockを使ったのか
+
+unittest.mockモジュールを使って困った点とその対策(5-8分)
+
+* unittest.mock.patchが当たらない
+* assert_called_onceなど、関数が呼ばれたことをアサートする方法
+* APIのレスポンスをモックすることで、(外部)APIを呼び出す関数の振る舞いをテストする
+* datetime.datetime.nowをモックオブジェクトに置き換えられない場合datetime.datetime.nowを引数に持たせるかPythonの3rdパーティライブラリ「freezegun」を使ってテストする
+
+
+--- -->
+    </article>
+
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                            <li>
+                                <a href="https://twitter.com/PyConShizu">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/pycon-mini-shizuoka/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://pycon-shizu.connpass.com">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-connpass fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+<p class="copyright text-muted">
+    Blog powered by <a href="http://getpelican.com">Pelican</a>,
+    which takes great advantage of <a href="http://python.org">Python</a>. <br />        &copy;  PyCon mini Shizuoka
+</p>                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://shizuoka.pycon.jp/new-hub-site-demo/theme/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://shizuoka.pycon.jp/new-hub-site-demo/theme/js/bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="https://shizuoka.pycon.jp/new-hub-site-demo/theme/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>

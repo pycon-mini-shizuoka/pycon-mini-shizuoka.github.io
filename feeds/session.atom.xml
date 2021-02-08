@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon mini Shizuoka 公式ページ - session</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/" rel="alternate"></link><link href="https://shizuoka.pycon.jp/new-hub-site-demo/feeds/session.atom.xml" rel="self"></link><id>https://shizuoka.pycon.jp/new-hub-site-demo/</id><updated>2020-01-04T20:00:00+09:00</updated><entry><title>DataFlow + Pythonで大規模データ処理</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/masahito/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>masahito</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/masahito/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/masahito/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/masahito/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- 
+
+データ分析を行うときに一箇所にデータを集めていくことが必要です。本セッションではそのための方法としてDataflowとPythonを紹介します。
+
+--- 
+--&gt;</content><category term="session"></category></entry><entry><title>Djangoで始めるWeb開発の世界 〜Web開発を知らない方に贈る、Django Girls Tutorialとその周辺のクイックツアー〜</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/ftnext/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>ftnext</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/ftnext/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/ftnext/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/ftnext/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- ## 概要
+
+自動化や機械学習などWeb開発以外に興味があってPythonを始めた方向けにDjangoの紹介します。
+翻訳やコーチなどで深く関わっているDjango Girls Tutorialから始め、2019年5月のDjango Congress JPでの発表につなげて、Web開発を始めるための情報を30分で提供します。
+また、2019年12月に出たDjango 3のアップデートも簡単に取り上げます。
+
+## 本トークの対象者
+
+- Web開発以外でPythonに入門し、Web開発に興味が出てきた方
+- エンジニアではないが、PythonでWeb開発して、自分のWebアプリを作ってみたい方
+
+## トークを聞いた後
+
+- Django Girls TutorialやDjango公式ドキュメントの投票アプリチュートリアルをやってみようと思える
+- Django開発のキーとなるモデル・URL・ビュー・テンプレートがざっくりわかる
+- Django Girls Tutorialの次にどのように調べて作りたいWebアプリを作っていけばいいかわかる
+
+## 話すこと
+
+- Webアプリとは
+- Webアプリの開発にDjangoをオススメする理由
+- 何周もしよう、Django Girls Tutorial
+- Django Girls Tutorial Extensionsについて
+- ユーザー管理機能の作り方
+- Django 3系のアップデート（asgi.pyとは）
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>EeLとWebSlidesで一味違う画像処理のプレゼン</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/kzhttkhs/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>KzhtTkhs</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/kzhttkhs/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/Kzhttkhs/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/Kzhttkhs/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- ElectronライクでシンプルなGUIライブラリのEelを紹介します。
+また、OpenCVとWebSlidesを組み合わせて、画像処理結果をリアルタイムにプレゼンした事例をあわせて紹介します。
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>君はcmathを知っているか</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/cardinalxaro/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>CardinalXaro</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/cardinalxaro/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/CardinalXaro/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/CardinalXaro/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- 
+Pythonには「バッテリー同梱(batteries included)」というフレーズが示唆するように数多くの標準ライブラリーがあります。
+その標準ライブラリーの中でも一体誰が何のために使うのかわからないものの1つに「複素数のための数学関数」を集めたモジュールcmathがあります。
+この発表では謎の存在であるcmathモジュールの使い方、気を付けるべきポイント、楽しみ方を紹介します。
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>Pythonでデスクトップアプリを簡単に作る方法</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/dario_okazaki/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>dario_okazaki</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/dario_okazaki/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/dario_okazaki/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/dario_okazaki/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- PysimpleGUIは2018年に生まれたGUIライブラリです。特徴としてはtkinterのラッパーでボタンの配置などのレイアウトをlistで記述することで簡単に記載できるなど、tkinterを生で書くよりも書きやすくて少ないコードで書くことができます。 参考までに公式ではtkinterで書く場合に比べてコード量が2分の1から10分の1程度でかけるとあります。
+
+Pythonで自動化の方法やゲームなどを作る際に、tkinterを使用して行っている本やサイトを見かけますが、tkinterはもともとtcl系のものなのでpython的な書き方が難しいライブラリだと個人的に考えています。
+
+今回は、tkinterで書かれているプログラムをPySimpleGUIで書き直してバイナリ化までの流れを説明します
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>PythonとKNIMEではじめるデータサイエンス</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/fmkz___/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>fmkz___</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/fmkz___/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/fmkz___/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/fmkz___/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- 
+
+データサイエンスをはじめるときにPythonをゼロから覚えるのは時間がかかるでしょうし、目的と手段が入れ替わることになるかもしれません。
+ここではノンプログラマーのためのプログラミングツールであるKNIMEの紹介とPythonをうまく組み合わせたデータ分析の方法について紹介します。
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>PythonとRaspberry Piで現場カイゼン！</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/etcinitd/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>etcinitd</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/etcinitd/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/etcinitd/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/etcinitd/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- PythonとRaspberry Piを活用して、工場の製造現場での生産性向上や、沼津市のアイドルグループのライブ現場でのIoT化など、ちょっとしたヒントを元にリアルな”現場”のカイゼンに取り組んだ作例を紹介します。
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>RaspberryPiとawsで取り組んだ自作IoT</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/saito/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>Saito</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/saito/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/Saito/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/Saito/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- 
+　とある部品メーカーの企画部門担当者が、工場と自宅でRaspberryPiとawsを使って自作IoTに取り組んだ事例を紹介します。
+
+　発表者は2018年の業務課題として、世間で普及し始めた自作IoTの調査を担当し、IoTのシステム構築を自社技術とて取り込むのに必要な要件の検証を行いました。その際、単なる情報収集にとどまらず実際に手を動かしてコーディング、環境構築、装置試作等の技術確認を行いました。本業の傍ら約1年間開発に取組み、「製造工程のリアルタイム可視化」と「稼働率自動分析」をするシステムを完成させました。また、業務で得たスキルを活用して遠隔地独居家族の見守りシステム自作にも挑戦しました。
+
+　これらのシステムでは、安価にアドオン(センサーとRaspberryPi)でデータを収集し、awsのダッシュボードを毎分更新しながら表示させます。
+
+　セッションでは利用した技術の詳細を説明します。
+
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>TensorFlow Liteを使った組み込みディープラーニング開発</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/ike_jpn/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>ike_jpn</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/ike_jpn/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/ike_jpn/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/ike_jpn/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- 　様々な産業でディープラーニングが利活用されるようになってきました。それに伴い、最近では「組み込みAI」とも言われるように、ディープラーニングを用いて作成したモデルを組み込みシステムへデプロイし運用するといったケースも注目されるようになってきました。
+　本セッションでは、TensorFlow LiteとSTM32マイコンを題材にディープラーニングモデルをマイコンで動かす方法や勘所、実際のパフォーマンスについて解説します。また、発表者が実際に今まで行ってきた「きゅうり選別機」や「プラ加工品の不良品検出装置」の開発の中で得た知見や失敗についてご紹介します。
+
+話すこと
+
+* TensorFlow Lite for マイコン
+* どの程度動くの？
+    * STM32H743VI ARM Cortex M7
+    * Kendryte K210
+    * （余力があれば、ESP32などいろいろ）
+* 組み込みAIはつらいよ
+    * きゅうり選別機のしくじり
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>unittest.mockを使ってテストを書こう 〜モックオブジェクトを使ってより単体テストの目的に沿ったテストに〜</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/mizzsugar0425/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>mizzsugar0425</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/mizzsugar0425/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/mizzsugar0425/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/mizzsugar0425/"&gt;&lt;/p&gt;
+&lt;!-- 
+こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます
+
+
+単体テストを書く上で、モックオブジェクトという手法があります。モックオブジェクトがどんな役割を果たすか、どのように使うかを知っていると、外部的な要因でテストが落ちなくなったり、テストしたいところだけテストできるようになって便利です。このトークでは、Pythonの標準モジュールunittest.mockを使ってモックオブジェクトを扱う方法について話します。
+
+
+### 対象となる人：
+* unittest.mockの存在は知っているけれどもイマイチ使いどころが分かっていない人
+* assertTrueやassertEqualなどの基本的なテストコードの文法は知っているけれど、何のためにテストを書くかをじっくり考えたことがない人
+
+※基本的なテストコードの文法や使い方を手短に説明します。単体テストを書いたことがなくてもこの話を聞けるように配慮します。
+
+
+### トークの目的：
+* 「なんとなくテスト書いた方がいい」から目的を持ったテストを書くように意識づける
+* 単体テストを書く目的を達成するためにモックを使うべき場面で使えるようになる
+* unittest.mockの使い方/ハマりポイントの対応策を知ってもらう
+
+
+### 話さないこと
+* テスト実行に便利なツールの紹介(coverageなど)
+* pytestの紹介及びunittestとの比較
+* E2Eテスト、結合テストの話
+
+
+### 話すこと
+
+#### 単体テストの目的(3-5分)
+* 単体テストの目的
+* 単体テストを書くメリット
+* 単体テストを書いて修正や機能追加をした例。(飲食店での購入合計金額を算出する関数を例に。既存の消費税が1.08に統一されていた頃の関数から軽減税率導入後の関数に変更する例を使います)
+    - assertEqualやassertTrueなどの基本的なアサーションメソッドの文法
+    - テストを実行するコマンド
+    - テストが落ちてからテストを通す道程
+    - テストを書くとどこまで関数の振る舞いを保証しているかわかるというメリット
+
+
+####  単体テストでモックオブジェクトを使う理由(5-8分)
+
+* モックオブジェクトの説明
+
+* 単体テストは下記の条件が揃っているべきである
+    - 速く実行される
+    - 常に同じ条件下で同じことがテストされる
+    - 外的要因を排除する
+    - 1つのテストメソッドで1つのことのみ確認でないとならない
+    - テスト対象の関数の振る舞いを担保する
+
+* 単体テストでモックオブジェクトを使うメリット
+
+####  Pythonのunittest.mockの基本的な使い方(5-8分)
+* 簡単なサンプルコードを使って説明(ランダムに運勢が出力されるおみくじを表現する関数を例に)
+    - unittest.mockを使わないテストコードで失敗する例
+    - unittest.mockの基本的な文法
+    - どのような考え方でこの例ではunittest.mockを使ったのか
+
+unittest.mockモジュールを使って困った点とその対策(5-8分)
+
+* unittest.mock.patchが当たらない
+* assert_called_onceなど、関数が呼ばれたことをアサートする方法
+* APIのレスポンスをモックすることで、(外部)APIを呼び出す関数の振る舞いをテストする
+* datetime.datetime.nowをモックオブジェクトに置き換えられない場合datetime.datetime.nowを引数に持たせるかPythonの3rdパーティライブラリ「freezegun」を使ってテストする
+
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>WagtailとPelicanでJAMstack環境を作ってみた</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/nyo3q1/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>nyo3q1</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/nyo3q1/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/nyo3q1/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/nyo3q1/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- 
+
+フロントエンド界隈で流行りつつあるJAMstack。
+これをPython製のライブラリやフレームワークを組み合わせる事で、柔軟な環境になると考え作成したのでデモを交えた経緯の説明をします。
+
+--- --&gt;</content><category term="session"></category></entry><entry><title>自信を持ってコードを書こう 〜「とりあえず動かす」の一歩先へ〜</title><link href="https://shizuoka.pycon.jp/new-hub-site-demo/session/rhoboro/" rel="alternate"></link><published>2020-01-04T20:00:00+09:00</published><updated>2020-01-04T20:00:00+09:00</updated><author><name>rhoboro</name></author><id>tag:shizuoka.pycon.jp,2020-01-04:/new-hub-site-demo/session/rhoboro/</id><content type="html">&lt;p&gt;&lt;meta http-equiv="refresh" content="1; URL=https://shizuoka.pycon.jp/2020/session/rhoboro/"&gt;
+&lt;link rel="canonical" href="https://shizuoka.pycon.jp/2020/session/rhoboro/"&gt;&lt;/p&gt;
+&lt;p&gt;こちらのページは2020年開催時のリンクです。新しいページへリダイレクトされます&lt;/p&gt;
+&lt;!-- 「この書き方でいいのかな...」と不安になることはありませんか？
+
+Pythonは比較的シンプルな言語です。
+プログラミング経験者であれば、簡単なスクリプトのコードを読むのは難しくないでしょう。
+しかし、いざ自分でコードを書き始めると「あれ？どう書くのがいいのかな？」と手が止まってしまうことがあります。
+このトークでは、そんな不安を感じながらPythonを書いている方に向けて、自信を持っていただくための書き方を紹介します。
+また、Pythonに潜んでいる落とし穴も一緒に紹介していきます。
+
+--- --&gt;</content><category term="session"></category></entry></feed>
