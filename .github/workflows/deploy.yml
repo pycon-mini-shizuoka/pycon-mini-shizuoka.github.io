@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches:
-      - new-hub-site-demo
+      - master
   workflow_dispatch:
 
 jobs:
