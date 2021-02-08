@@ -58,7 +58,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # theme config
-# HEADER_COVER = 'static/my_image.png'
-# HEADER_COLOR = 'black'
+HEADER_COVER = 'images/header-bg-mini.jpg'
+HEADER_COLOR = 'white'
 
 
