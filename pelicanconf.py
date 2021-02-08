@@ -44,8 +44,9 @@ CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 
 # github pages add CNAME
 
-STATIC_PATHS = ['extra/CNAME']
+STATIC_PATHS = ['extra/CNAME', 'images/']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
+                    'images/': {'path': 'images/'},
 }
 
 SOCIAL = (('twitter', 'https://twitter.com/PyConShizu'),
